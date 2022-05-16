@@ -6,8 +6,12 @@ text-align: center;
 text-align: center;
 }
 .head2{    
-text-align: center;
+margin-left: 700px;
+width: 20px;
+margin-top: -19px;
 }
-.head3{
-text-align: center;
+.head3{ 
+margin-left: 800px;
+width: 20px;
+margin-top: -19px;
 }
