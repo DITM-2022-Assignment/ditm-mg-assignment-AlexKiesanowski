@@ -9,10 +9,6 @@ color:white;
 font-size: 70px;
 width:110px;
 margin-left:710px;
-border-color: rgb(0, 0, 0); 
-border-width: 2px; 
-border-style: solid; 
-background-color: black;
 }
 .head2{    
 margin-left: 470px;
@@ -20,24 +16,23 @@ width: 80px;
 margin-top: -85px;  
 font-size: 70px;
 border-color: rgb(0, 0, 0); 
-border-width: 2px; 
-border-style: solid; 
-background-color: black;
 }
 .head3{ 
 margin-left: 950px;
 width: 110px;
 margin-top: -85px;  
 font-size: 70px;
-border-color: rgb(0, 0, 0); 
-border-width: 2px; 
-border-style: solid; 
-background-color: black;
 }
 .button{
 text-decoration: none;
 color: rgb(255, 255, 255);
 -webkit-text-stroke-width: 1px;
 -webkit-text-stroke-color: black;
-
+border-width: 2px; 
+border-style: solid; 
+background-color: black;
+transition:  1s;
+}
+a:hover {
+    background: #3cc16e;
 }
