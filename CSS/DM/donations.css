@@ -4,24 +4,37 @@ font-size: 90px;
 color:white;
 -webkit-text-stroke-width: 1px;
 -webkit-text-stroke-color: black;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; 
+
 }
 .head1{
 font-size: 70px;
 width:110px;
 margin-left:710px;
+border-width: 2px; 
+border-style: solid; 
+background-color: black;
+border-width: 2px 0px 2px 1.5px;
+
 }
 .head2{    
 margin-left: 470px;
-width: 80px;
+width: 75px;
 margin-top: -85px;  
-font-size: 70px;
-border-color: rgb(0, 0, 0); 
+font-size: 70px; 
+border-style: solid; 
+background-color: black;
+border-width: 2px 0px 2px 1.5px;
 }
 .head3{ 
 margin-left: 950px;
 width: 110px;
 margin-top: -85px;  
 font-size: 70px;
+border-width: 2px; 
+border-style: solid; 
+background-color: black;
+border-width: 2px 0px 2px 1.5px;
 }
 .button{
 text-decoration: none;
@@ -31,8 +44,7 @@ color: rgb(255, 255, 255);
 border-width: 2px; 
 border-style: solid; 
 background-color: black;
-transition:  1s;
 }
 a:hover {
-    background: #3cc16e;
+    background: #ffffff;
 }
