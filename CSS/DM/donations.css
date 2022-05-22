@@ -55,15 +55,28 @@ a:hover {
 
 .donations{
 text-align: center;
+font-size: 0px;
 }
 .don5{
 margin-top:-0px;
+text-decoration: none;
+color: rgb(255, 255, 255);
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black;
 }
 .don10{
 margin-top: -0px;
+text-decoration: none;
+color: rgb(255, 255, 255);
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black;
 }
 .don20{
 margin-top: -0px;
+text-decoration: none;
+color: rgb(255, 255, 255);
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black;
 }
 p:target {
 animation: fadeInAnimation ease 1s;
@@ -72,8 +85,9 @@ animation-fill-mode: forwards;
 }
 @keyframes fadeInAnimation{
     0% {
-        font-size: 90px;
+        font-size: 160px;
     }
     100% {
          font-size: 1;
     }
+}
