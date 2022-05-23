@@ -19,6 +19,7 @@ border-width: 2px;
 border-style: solid; 
 background-color: black;
 border-width: 2px 0px 2px 1.5px;
+opacity:100%;
 
 }
 .head2{    
@@ -70,6 +71,7 @@ text-decoration: none;
 color: rgb(255, 255, 255);
 -webkit-text-stroke-width: 1px;
 -webkit-text-stroke-color: black;
+display: show;
 }
 .don20{
 margin-top: -0px;
