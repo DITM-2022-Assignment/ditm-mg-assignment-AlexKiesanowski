@@ -1,5 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+  <script>
+  
+    function calculate(button) {
+      const number = parseInt(button.innerHTML)
+      const currentTotalElement = document.getElementById("current")
+      const currentTotal = parseInt(currentTotalElement.innerHTML)
+      const newTotal = currentTotal + number
+      currentTotalElement.innerHTML = newTotal
+    }
+  </script>
     <div class="h1div" >
         <h1>
         POLLUTION BAD
@@ -30,15 +40,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>donations</title>
 </head>
+
 <link rel="stylesheet" type="text/css" href="donations.css" media="screen" />
 <div class="header"><header>DONATIONS</div>
-<div class="head1"><a href="#text2" class="button">$10</a></div>
-<div class="head2"><a href="#text1" class="button">$5</a></div>
-<div class="head3"><a href="#text3" class="button">$20</a></div>
+<div class="head1"><a href="#text2" class="button" onClick="calculate(this)">10<div class="D1">10$</div></a></div>
+<div class="head2"><a href="#text1" class="button"onClick="calculate(this)">5<div class="D1">5$</div></a></div>
+<div class="head3"><a href="#text3" class="button"onClick="calculate(this)">20<div class="D3">20$</div></a></div>
+<div class="calc-grid">
+  <div class="output">
+      <div class="current" id="current">0</div>
+  </div>
+
+</div>
 </header>
 <body>
 <div class="donations">
-<div class="don5"><p id="text1">you donated 5$</div></p>
+  <div class="don5"><p id="text1">you donated 5$</div></p>
 
 <div class="don10"><p id="text2">you donated 10$</div></p>    
 
@@ -47,7 +64,6 @@
 </div>
 
 </body>
-
 
 
 
