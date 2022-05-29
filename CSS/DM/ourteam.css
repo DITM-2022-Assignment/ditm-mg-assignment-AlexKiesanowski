@@ -1,0 +1,21 @@
+html{
+height: auto;
+width: auto;
+}
+.mem1{
+    border-color: rgb(0, 0, 0); 
+    border-width: 2px; 
+    border-style: solid; 
+margin-top: 150px;
+height:170px;
+}
+.mem1text{
+margin-top:-90px;
+}
+.mem1img{
+margin-left:70px;
+}
+.mem1body{
+margin-left:300px;
+
+}
