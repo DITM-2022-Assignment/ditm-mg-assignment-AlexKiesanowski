@@ -1,69 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <script>
-  
-    function calculate(button) {
-      const number = parseInt(button.innerHTML)
-      const currentTotalElement = document.getElementById("current")
-      const currentTotal = parseInt(currentTotalElement.innerHTML)
-      const newTotal = currentTotal + number
-      currentTotalElement.innerHTML = newTotal
+<script>
+function calculate(button) {
+const number = parseInt(button.innerHTML)
+const currentTotalElement = document.getElementById("current")
+const currentTotal = parseInt(currentTotalElement.innerHTML)
+const newTotal = currentTotal + number
+currentTotalElement.innerHTML = newTotal
     }
-  </script>
-    <div class="h1div" >
-        <h1>
-          AUCKLAND POLLUTION
-        </h1>
-        </div>
-        
-        <div class="umaru" >
-            <a href="index.html" ><img src="funny photots/trash.png" class="UM"></a> 
-        </div>
-        <h2>
-        AP
-        </h2>
-        <div class="menu">
-        <h3> 
-        <div class="dropdown">
-            <button class="dropbtn">menu</button>
-            <div class="dropdown-content">
-              <a href="index.html">home</a>
-              <a href="donations.html">donations</a>
-              <a href="ourteam.html">our team</a>
-            </div>
-          </div> 
-        </h3>
-        </div>
+</script>
+<div class="h1div" >
+<h1>
+ORMISTON POLLUTION
+</h1>
+</div>
+<div class="umaru" >
+<a href="index.html" ><img src="funny photots/trash.png" class="UM"></a> 
+</div>
+<h2>
+OP
+</h2>
+<div class="menu">
+<h3> 
+<div class="dropdown">
+<button class="dropbtn">menu</button>
+<div class="dropdown-content">
+<a href="index.html">home</a>
+<a href="donations.html">donations</a>
+<a href="ourteam.html">our team</a>
+</div>
+</div> 
+</h3>
+</div>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>donations</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>donations</title>
 </head>
-
 <link rel="stylesheet" type="text/css" href="donations.css" media="screen" />
 <div class="header"><header>DONATIONS</div>
-    <div class="output">
-      amount donated:<div class="current" id="current">0</div>
-  </div>
+<div class="output">
+amount donated:<div class="current" id="current">0</div>
+</div>
 <div class="head1"><a href="#text2" class="button" onClick="calculate(this)">10</a></div>
 <div class="head2"><a href="#text1" class="button"onClick="calculate(this)">5</a></div>
 <div class="head3"><a href="#text3" class="button"onClick="calculate(this)">20</a></div>
 <div class="calc-grid">
-
-
 </div>
 </header>
 <body>
 <div class="donations">
-  <div class="don5"><p id="text1">you donated $5</div></p>
-
+<div class="don5"><p id="text1">you donated $5</div></p>
 <div class="don10"><p id="text2">you donated $10</div></p>    
-
 <div class="don20"><p id="text3">you donated $20</div></p>
-
 </div>
-
 </body>
 
 
