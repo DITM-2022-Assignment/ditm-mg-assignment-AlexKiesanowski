@@ -151,6 +151,8 @@ height: 40px;
 }
 .tube{
 height: 40px;
+float: right;
+margin-right: 90px;
 }
 .images{
 margin-right: -0px;    
