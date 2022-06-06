@@ -145,18 +145,22 @@ margin-left: -20px;
 }
 .face{
 height: 40px;
+float: right;
+margin-right: 120px;
+margin-top: 21px;
 }
 .twit{
 height: 40px;
+float: right;
+margin-right: 550px;
+margin-top: 20px;
 }
 .tube{
 height: 40px;
 float: right;
-margin-right: 90px;
+margin-right: 590px;
+margin-top: 20px;
 }
 .images{
 margin-right: -0px;    
-border-color: rgb(0, 0, 0); 
-border-width: 2px; 
-border-style: solid;
 }
