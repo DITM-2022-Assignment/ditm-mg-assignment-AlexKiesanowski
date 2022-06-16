@@ -47,8 +47,13 @@ border-radius: 4px;
 margin-top:70px;
 }
     .bodygraph1{
-margin-left: 810px;
-margin-top: -205px;
+margin-left: 710px;
+margin-top: -20px;
+border-color: rgb(0, 0, 0); 
+border-width: 2px;
+border-style: solid;
+width:540px;
+height: 200px;
 }
     .bodytext{
 border-color: rgb(0, 0, 0); 
