@@ -27,7 +27,7 @@ letter-spacing: 4px;
 width: 100.8%;
     }
     .bodydiv{
-border-color: rgb(0, 255, 68); 
+border-color: rgb(0, 0, 0); 
 border-width: 2px; 
 border-style: solid; 
 width: 100.79%;
@@ -41,30 +41,29 @@ margin-top: 29px;
 /*the before and after image*/
     .PIE{
 height: 300px;
-border-color: rgb(255, 0, 225); 
 border-width: 2px; 
 border-style: solid;
-border-radius: 4px;
-margin-top:70px;
+margin-top:0px;
 }
     .bodygraph1{
-margin-left: 710px;
-margin-top: -20px;
-border-color: rgb(229, 255, 0); 
+margin-left: 750px;
+margin-top: -440px;
 border-width: 2px;
 border-style: solid;
 width:540px;
-height: 380px;
+height: 305px;
 }
     .bodytext{
-border-color: rgb(76, 0, 255); 
+border-color: rgb(0, 0, 0); 
 border-width: 2px; 
 border-style: solid; 
-margin-top: 10px;
+margin-top: 370px;
 width: 500px;
-margin-left: 300px;
-border-radius: 4px;
+margin-left:  775px;
 background-color: rgb(255, 255, 255);
+font-family:"Lucida Console", monospace;
+font-size: 14px;
+
 }
     h2{
 margin-left: 60px;
@@ -94,16 +93,30 @@ margin-left: -8px;
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; 
 letter-spacing: 4px;
 }
+.RIV{
+border-color: rgb(0, 0, 0); 
+border-width: 2px; 
+border-style: solid; 
+width: 290px;
+background-color: #ffffff;
+font-family:"Lucida Console", monospace;
+margin-left: 230px;
+}
     .video{
-margin-top: -450px;
-margin-left: 20px;
+margin-top: -310px;
+margin-left: 180px;
 }
     .form{
-margin-left:430px;
-margin-top:-200px;
--webkit-text-stroke-width: 1px;
--webkit-text-stroke-color: black;
-color: rgb(255, 255, 255);
+margin-left:60px;
+margin-top:-4px;
+color: rgb(0, 0, 0);
+font-family:"Lucida Console", monospace;
+background-color: #ffffff;
+width: 280px;
+border-color: rgb(0, 0, 0); 
+border-width: 2px; 
+border-style: solid; 
+
 }
     .dropbtn {
 background-color: #ffffff;
