@@ -48,8 +48,6 @@ margin-top:0px;
     .bodygraph1{
 margin-left: 750px;
 margin-top: -440px;
-border-width: 2px;
-border-style: solid;
 width:540px;
 height: 305px;
 }
@@ -85,7 +83,7 @@ width: 98%;
 text-decoration: none; 
 } 
     .h1div{
-border-color: rgb(0, 255, 242); 
+border-color: rgb(0, 0, 0); 
 border-width: 2px; 
 border-style: solid; 
 margin:-8px; 

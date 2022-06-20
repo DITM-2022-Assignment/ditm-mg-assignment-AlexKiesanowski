@@ -8,10 +8,8 @@ width: auto;
     border-style: solid; 
 margin-top: 10px;
 height:170px;
-color: white;
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; 
--webkit-text-stroke-width: 1px;
--webkit-text-stroke-color: black;
+color: rgb(0, 0, 0);
+font-family:"Lucida Console", monospace;
 font-size: 21px;
 }
 .mem1text{
@@ -30,10 +28,8 @@ border-width: 2px;
 border-style: solid; 
 margin-top: 90px;
 height:170px;
-color: white;
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; 
--webkit-text-stroke-width: 1px;
--webkit-text-stroke-color: black;
+color: rgb(0, 0, 0);
+font-family:"Lucida Console", monospace;
 font-size: 21px;
 }
 .mem2text{
