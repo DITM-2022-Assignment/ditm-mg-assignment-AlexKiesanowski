@@ -1,21 +1,21 @@
-    html{
+    html {
 height: 100%;
 }
-    .umaru{
+    .umaru {
 width: 70px;
 margin-top: -80px;
 }
-    .UM{
+    .UM {
 height: 50px;
 margin-top: 10px;
 margin-left: 20px;
 }
-    h1{
+    h1 {
 color: rgb(255, 255, 255);
 text-align:center;
 -webkit-text-stroke-width: 1px;
 }
-    .h1div{
+    .h1div {
 -webkit-text-stroke-color: black;
 border-color: rgb(255, 0, 0); 
 border-width: 2px;
@@ -25,8 +25,8 @@ margin-left: -8px;
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; 
 letter-spacing: 4px; 
 width: 100.8%;
-    }
-    .bodydiv{
+}
+    .bodydiv {
 border-color: rgb(0, 0, 0); 
 border-width: 2px; 
 border-style: solid; 
@@ -39,19 +39,19 @@ background-size: cover;
 margin-top: 29px;
 }
 /*the before and after image*/
-    .PIE{
+    .PIE {
 height: 300px;
 border-width: 2px; 
 border-style: solid;
 margin-top:0px;
 }
-    .bodygraph1{
+    .bodygraph1 {
 margin-left: 750px;
 margin-top: -440px;
 width:540px;
 height: 305px;
 }
-    .bodytext{
+    .bodytext {
 border-color: rgb(0, 0, 0); 
 border-width: 2px; 
 border-style: solid; 
@@ -61,9 +61,8 @@ margin-left:  775px;
 background-color: rgb(255, 255, 255);
 font-family:"Lucida Console", monospace;
 font-size: 14px;
-
 }
-    h2{
+    h2 {
 margin-left: 60px;
 margin-top: -40px;
 font-family:sans-serif;
@@ -72,17 +71,17 @@ color: rgb(255, 255, 255);
 -webkit-text-stroke-width: 1px;
 -webkit-text-stroke-color: black;
 }
-    h3{
+    h3  {
 margin-top:-55px;
 -webkit-text-stroke-width: 1px;
 -webkit-text-stroke-color: black;
 color: rgb(255, 255, 255);
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+font-family:"Lucida Console", monospace;
 text-align: right;
 width: 98%;
 text-decoration: none; 
 } 
-    .h1div{
+    .h1div {
 border-color: rgb(0, 0, 0); 
 border-width: 2px; 
 border-style: solid; 
@@ -91,7 +90,7 @@ margin-left: -8px;
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; 
 letter-spacing: 4px;
 }
-.RIV{
+    .RIV {
 border-color: rgb(0, 0, 0); 
 border-width: 2px; 
 border-style: solid; 
@@ -100,11 +99,11 @@ background-color: #ffffff;
 font-family:"Lucida Console", monospace;
 margin-left: 230px;
 }
-    .video{
+    .video {
 margin-top: -310px;
 margin-left: 180px;
 }
-    .form{
+    .form {
 margin-left:60px;
 margin-top:-4px;
 color: rgb(0, 0, 0);
@@ -114,7 +113,6 @@ width: 280px;
 border-color: rgb(0, 0, 0); 
 border-width: 2px; 
 border-style: solid; 
-
 }
     .dropbtn {
 background-color: #ffffff;
@@ -139,10 +137,10 @@ z-index: 1;
 margin-left: -74px;
 }
     .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
 }
 
 .dropdown-content a:hover {background-color: #ddd;}
@@ -151,33 +149,33 @@ margin-left: -74px;
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
-footer{
-    border-color: rgb(0, 0, 0); 
-    border-width: 2px; 
-    border-style: solid; 
+footer {
+border-color: rgb(0, 0, 0); 
+border-width: 2px; 
+border-style: solid; 
 height: 200px;
-background-color: rgb(90, 90, 90);
+background-color: rgb(55, 55, 55);
 width: 101.6%;
 margin-left: -20px;
 }
-.face{
+.face {
 height: 40px;
 float: right;
 margin-right: 120px;
-margin-top: 21px;
+margin-top: 80px;
 }
-.twit{
+.twit {
 height: 40px;
 float: right;
 margin-right: 550px;
-margin-top: 20px;
+margin-top: 80px;
 }
-.tube{
+.tube {
 height: 40px;
 float: right;
 margin-right: 590px;
-margin-top: 20px;
+margin-top: 80px;
 }
-.images{
+.images {
 margin-right: -0px;    
 }
