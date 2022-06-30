@@ -9,7 +9,6 @@ color:white;
 -webkit-text-stroke-width: 1px;
 -webkit-text-stroke-color: black;
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; 
-
 }
     .head1 {
 font-size: 70px;
@@ -20,7 +19,6 @@ border-style: solid;
 background-color: black;
 border-width: 2px 0px 2px -2px;
 opacity:100%;
-
 }
     .head2 {    
 margin-left: 470px;
@@ -49,15 +47,15 @@ color: rgb(255, 255, 255);
 border-width: 2px; 
 border-style: solid; 
 background-color: black;
-
 }
     a:hover {
 background: #ffffff;
 }
-
     .donations {
 text-align: center;
 font-size: 0px;
+text-decoration: none;
+color: #ffffff;
 }
     .don5 {
 margin-top:-0px;
